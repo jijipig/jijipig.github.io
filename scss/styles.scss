@@ -1,58 +1,23 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the styles associated with the page
-    that don't come from third party libraries. This file gets compiled using
-    Gulp and send to the /css folder which is then loaded on the page.
-*/
 /*
-    File Contents:
-
-        1. Variables
-        2. Mixins
-        3. Global Styles
-        4. Lead Styles
-        5. About Styles
-        6. Experience Styles
-        7. Education Styles
-        8. Project Styles
-        9. Skills Styles
-        10. Contact Styles
-        11. Optional Section Styles
-        12. Media Queries
+이곳은 웹사이트의 디자인을 바꾸는 공간입니다.
 */
 
-/*
-    ------------------------
-    ----- 1. Variables -----
-    ------------------------
-*/
 
-// Define base and accent colors
-$base-color: #3498db;
+// 베이스 색을 적할 수 있는 공간입니다.
+$base-color: grey;
 $base-color-hover: darken($base-color, 10%);
 
-// Define background colors
-$background: #fff;
+// 배경색을 정할 수 있는 구간입니다.
+$background: white;
 $background-alt: #f2f2f5;
 
-// Define border colors
+// 외곽선 색을 정할 수 있는 구간입니다.
 $border: #dcd9d9;
 
-// Define text colors
+// 글자의 색을 정할 수 있는 구간입니다.
 $heading: #374054;
 $text: #74808a;
 
-/*
-    ---------------------
-    ----- 2. Mixins -----
-    ---------------------
-*/
 
 @mixin transition($duration: 0.5s, $func: ease, $property: all) {
     transition: #{$duration} #{$func} #{$property};

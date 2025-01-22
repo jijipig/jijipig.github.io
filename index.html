@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>My Portfolio</title> <!-- 웹사이트 제목을 적는 구간입니다.-->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -18,9 +18,11 @@
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
+    <!-- 메뉴 토글 끝 -->
+
+    <!-- 네비게이션 시작 -->
     <header>
-        <div id="mobile-menu-close">
+        <div id="mobile-menu-close"> <!-- 클릭시 해당 메뉴로 자동 스크롤 되는 네비게이션바입니다. 수정 X -->
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
@@ -44,14 +46,14 @@
             </li>
         </ul>
     </header>
-    <!-- End header -->
+    <!-- 네비게이션 끝 -->
 
+    <!-- 기본적인 정보에 대해 적는 구간입니다. -->
     <div id="lead">
         <div id="lead-content">
-            <h1>이름</h1>
+            <h1>이름</h1> <!-- 이름과 현재 신분을 적어주세요. -->
             <h2>직함</h2>
         </div>
-        <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
 
@@ -60,10 +62,10 @@
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
         </div>
-        <!-- End #lead-down -->
     </div>
-    <!-- End #lead -->
+    <!-- 기본 정보 끝 -->
 
+    <!-- about메뉴에 들어가는 자기소개란입니다. -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -72,19 +74,20 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        나에 대한 소개글글
+                        나에 대한 소개글 <!-- 본인에 대한 소개를 200자 내외로 적어주세요. -->
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End #about -->
+    <!-- 자기소개 끝 -->
 
+    <!-- 지금까지 있었던 특별한 경험에 대해 적는 구간입니다. -->
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="20XX X월 - 20XX X월">
-                <h3>대회/교육/자격증 이름 or 수상 실적</h3>
+            <div data-date="20XX X월 - 20XX X월"> <!-- 대회/교육/자격증 준비 기간을 적어주세요. -->
+                <h3>대회/교육/자격증 이름 or 수상 실적</h3> <!-- 적을 수 있는 내용에 따라 div 덩어리를 지우거나 복사 붙여넣기 할 수 있습니다. -->
                 <h4>주관사</h4>
                 <p>
                     자세한 설명명
@@ -108,27 +111,11 @@
             </div>
         </div>
     </div>
-    <!-- End #experience -->
+    <!-- 경험 끝 -->
 
+    <!-- 본인의 학교 및 학업에 대해 적는 공간입니다. -->
     <div id="education">
-        <h2 class="heading">Education</h2> <!-- 학업에 관한 내용을 서술하는 공간입니다. -->
-        <div class="education-block">
-            <h3>OO학교</h3>
-            <span class="education-date">20XX X월 - 20XX X월</span>
-            <h4>위치</h4>
-            <ul>
-                <li>
-                    대표적인 학교 경험이나 자랑할만한 수상실적을 적어주세요
-                </li>
-                <li>
-                    학업적 성취도나 임원 경험을 적어주셔도 괜찮습니다.
-                </li>
-                <li>
-                    적어야 할 게 많다면 이 부분을 추가해서 적으셔도 됩니다.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
+        <h2 class="heading">Education</h2>
 
         <div class="education-block">
             <h3>OO학교</h3>
@@ -146,9 +133,26 @@
                 </li>
             </ul>
         </div>
-        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>OO학교</h3>
+            <span class="education-date">20XX X월 - 20XX X월</span>
+            <h4>위치</h4>
+            <ul>
+                <li>
+                    대표적인 학교 경험이나 자랑할만한 수상실적을 적어주세요
+                </li>
+                <li>
+                    학업적 성취도나 임원 경험을 적어주셔도 괜찮습니다.
+                </li>
+                <li>
+                    적어야 할 게 많다면 이 부분을 추가해서 적으셔도 됩니다.
+                </li>
+            </ul>
+        </div>
+    
     </div>
-    <!-- End #education -->
+    <!-- 학업 끝 -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -158,7 +162,7 @@
                     <div class="project-image">
                         <img src="images/project.jpg" />
                     </div>
-                    <!-- End .project-image -->
+                    
                     <div class="project-info">
                         <h3>프로젝트 이름</h3>
                         <p>
@@ -166,15 +170,15 @@
                         </p>
                         <a href="#">View Project</a>
                     </div>
-                    <!-- End .project-info -->
+                    
                 </div>
-                <!-- End .project -->
+                
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/project.jpg" />
                     </div>
-                    <!-- End .project-image -->
+                    
                     <div class="project-info">
                         <h3>프로젝트 이름</h3>
                         <p>
@@ -182,15 +186,16 @@
                         </p>
                         <a href="#">View Project</a>
                     </div>
-                    <!-- End .project-info -->
+                    
                 </div>
-                <!-- End .project -->
+                
             </div>
         </div>
     </div>
-    <!-- End #projects -->
+    <!-- 프로젝트 끝 -->
 
-    <div id="skills"> <!-- 본인이 어떤 능력을 가지고 있는지 적는 공간입니다. 컴퓨터 언어나 학원에서 배운 로봇 프로그램을 적어주시면 됩니다.-->
+    <!-- 본인이 어떤 기술을 가지고 있는지 적는 공간입니다. 컴퓨터 언어나 학원에서 배운 로봇 프로그램을 적어주시면 됩니다.-->
+    <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
             <li>C언어</li>
@@ -201,22 +206,10 @@
             <li>...</li>
         </ul>
     </div>
-    <!-- End #skills -->
+    <!-- 보유 기술 끝 -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
 
+    <!-- 본인 SNS 계정과 접근할 수 있는 링크를 거는 공간입니다. -->
     <footer>
         <div class="container">
             <div class="row">
@@ -253,7 +246,7 @@
             </div>
         </div>
     </footer>
-    <!-- End footer -->
+    <!-- 정보 끝 -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
